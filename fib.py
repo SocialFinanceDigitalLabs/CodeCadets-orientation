@@ -15,5 +15,5 @@ if __name__ == "__main__":
     try:
         n = int(sys.argv[1])
     except:
-        n = None
+        n = 10
     fib(n)
